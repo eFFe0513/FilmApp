@@ -27,7 +27,7 @@ public class InfoActivity extends AppCompatActivity {
         int immagine = getIntent().getIntExtra("immagine", -1);
         String titolo = getIntent().getStringExtra("titolo");
         String regista = getIntent().getStringExtra("regista");
-        int anno = getIntent().getIntExtra("anno", -1);
+        String anno = getIntent().getIntExtra("anno", -1) + "";
         String genere = getIntent().getStringExtra("genere");
 
         ImageView immagineV = findViewById(R.id.infoImageView);
