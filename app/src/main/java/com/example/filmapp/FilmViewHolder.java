@@ -50,7 +50,5 @@ public class FilmViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         i.putExtra("anno", film.getAnno());
         i.putExtra("genere", film.getGenere());
         view.getContext().startActivity(i);
-
-        //TODO chiedere all'Ollio
     }
 }
